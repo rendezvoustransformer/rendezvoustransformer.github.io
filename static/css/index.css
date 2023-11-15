@@ -187,3 +187,7 @@ body {
 }
 
 .bigger { font-size:200%; }
+
+.imgContainer{
+  float:left;
+}
