@@ -286,6 +286,7 @@
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
+    <!--
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
@@ -295,7 +296,34 @@
         </div>
       </div>
     </div>
-    <!--/ Paper video. -->
+    -->
+    <!--/ Framework. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Our Framework</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our goal is to develop a framework to train modern Transformer models for trajectory optimization problems. Our approach can be summarized through the following steps:
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <div class="column is-3 has-text-centered">
+            <img src="./static/images/ocp.jpg"
+                 class="interpolation-image"
+                 alt="Interpolate start reference image."/>
+        </div>
+      </div>
+      <p>
+        <b>(1)</b>  We're given an optimal control problem (OCP) defined by:
+      </p>
+        <ol>
+          <li>Cost function J (e.g., fuel-optimality)</li>
+          <li>Dynamics function f, potentially non-linear</li>
+          <li>Set of constraint C(t), potentially non-convex</li>
+        </ol>
+      <p>
+      This setting is general and encompasses a wide variety of optimization problems of practical importance
+      </p>
   </div>
 </section>
 
