@@ -326,10 +326,12 @@
         </p>
       </div>
       
+      <div class="content has-text-justified">
+        <p>
+          <span class='bigger'><b>Step 2:</b> </span> For the purpose of trajectory optimization, we define a trajectory as a sequence of:
+        </p>
+      </div>
       <div class="content has-text-centered">
-      <p>
-        <span class='bigger'><b>Step 2:</b> </span> For the purpose of trajectory optimization, we define a trajectory as a sequence of:
-      </p>
         <img src="./static/images/traj.jpg"
         height="600px" width="600px"/>
       </div>
@@ -341,21 +343,26 @@
         </ol>
     </div>
 
-    <div class="content has-text-centered">
+    <div class="content has-text-justified">
       <p>
         <span class='bigger'><b>Step 3:</b> </span> To enable Transformer training, we collect a dataset of (potentially sub-optimal) trajectories by solving the OCP in <b>(1)</b> from various randomized conditions
       </p>
-        <img src="./static/images/dataset.jpg"
-        height="600px" width="600px"/>
     </div>
-      
     <div class="content has-text-centered">
-      <p>
-        <span class='bigger'><b>Step 4:</b> </span> In practice, we condition the trajectory generation using two main performance parameters:
-      </p>
-        <img src="./static/images/perf.jpg"
-        height="600px" width="600px"/>
+      <img src="./static/images/dataset.jpg"
+      height="600px" width="600px"/>
     </div>
+
+
+    <div class="content has-text-justified">
+          <p>
+            <span class='bigger'><b>Step 4:</b> </span> In practice, we condition the trajectory generation using two main performance parameters:
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./static/images/perf.jpg"
+          height="600px" width="600px"/>
+        </div>
     <div class="content has-text-justified">
         <ol>
           <li><em>Reward-to-go <b>(R)</b></em>: defined as the sum of (negative) cost from time t onwards</li>
@@ -386,7 +393,7 @@
         </div>
         <div class="content has-text-centered">
           <img src="./static/images/dock.jpg"
-          height="600px" width="600px"/>
+          height="900px" width="900px"/>
         </div>
       </div>
     </div>
