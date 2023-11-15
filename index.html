@@ -186,6 +186,7 @@
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
+      <!--
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-steve">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
@@ -236,6 +237,7 @@
           </video>
         </div>
       </div>
+    -->
     </div>
   </div>
 </section>
@@ -246,34 +248,16 @@
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">Motivation</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            For most problems of interest, the trajectory optimization problem is usually highly non-convex, thus resulting in formulations that hard to solve efficiently and reliably on-board through optimization-based approaches.
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
+            At the same time, learning-based approaches for trajectory optimization are typically limited by (i) the lack of constraint satisfaction guarantees or (ii) representative power (e.g., representation of a state and control trajectory via a fixed-degree polynomial).
           </p>
           <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            In this work, we propose a framework to achieve the best of both worlds: 
           </p>
         </div>
       </div>
