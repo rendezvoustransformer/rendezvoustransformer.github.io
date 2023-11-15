@@ -71,7 +71,11 @@ body {
 }
 
 .publication-authors a {
-   color: hsl(204, 86%, 53%) !important;
+   color: hsl(121, 100%, 36%) !important;
+}
+
+.conference-authors a {
+  color: #B83A4B !important;
 }
 
 .publication-authors a:hover {
