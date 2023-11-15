@@ -185,3 +185,5 @@ body {
 .justify {
   text-align: justify;
 }
+
+.bigger { font-size:200%; }
